@@ -34,6 +34,7 @@ public class EmpDetails {
  			if(!allwindows.equals(one)) {
  				driver.switchTo().window(allwindows);
  				driver.close();
+ 				driver.switchTo().defaultContent();
  			}	
  		
 }
